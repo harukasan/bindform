@@ -1,7 +1,6 @@
 # bindform
 
-Post data binding into struct, inspired from
-[martini-contrib/binding](https://github.com/martini-contrib/binding).
+[![Godoc](https://img.shields.io/badge/Godoc-references-blue.svg?style=flat-square)](https://godoc.org/github.com/harukasan/bindform/bindform)
 
 Because bindform is aimed to only binding data, it does not cover data
 validations (only type checking). You should validate data after (or before)
