@@ -9,7 +9,16 @@ data binding.
 
 ## Usage
 
+```
+go get -u github.com/harukasan/bindform/bindform
+```
+
 ```go
+package main
+
+import (
+    "net/http"
+    "github.com/harukasan/bindform/bindform"
 
 type ContactForm struct {
   Name    string `form:"name"`
