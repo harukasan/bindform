@@ -1,6 +1,7 @@
 # bindform
 
 [![Godoc](https://img.shields.io/badge/Godoc-references-blue.svg?style=flat-square)](https://godoc.org/github.com/harukasan/bindform/bindform)
+[![Build Status](https://img.shields.io/travis/harukasan/bindform.svg?style=flat-square)](https://travis-ci.org/harukasan/bindform)
 
 Because bindform is aimed to only binding data, it does not cover data
 validations (only type checking). You should validate data after (or before)
@@ -58,4 +59,3 @@ func HandlePostContactForm(w http.ResponseWriter, r *http.Request) {
 Copyright (c) 2015, MICHII Shunsuke.
 
 See [License](./LICENSE)
-
